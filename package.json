@@ -1,7 +1,7 @@
 {
   "name": "qa_tdd",
   "version": "1.0.0",
-  "description": "",
+  "description": "<img src=\"https://s3.amazonaws.com/devmountain/readme-logo.png\" width=\"250\" align=\"right\">",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,11 +10,22 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@types/jest": "^26.0.15",
-    "jest": "^26.6.3",
     "jest-cli": "^26.6.3",
-    "ts-jest": "^26.4.4",
-    "ts-node": "^9.0.0",
-    "typescript": "^4.0.5"
+    "ts-node": "^9.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vandyqa/qa_animal_feeder.git"
+  },
+  "bugs": {
+    "url": "https://github.com/vandyqa/qa_animal_feeder/issues"
+  },
+  "homepage": "https://github.com/vandyqa/qa_animal_feeder#readme",
+  "devDependencies": {
+    "@types/jest": "^26.0.24",
+    "@types/jquery": "^3.5.6",
+    "jest": "^27.0.6",
+    "ts-jest": "^27.0.3",
+    "typescript": "^4.3.5"
   }
 }

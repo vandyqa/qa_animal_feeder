@@ -1,4 +1,4 @@
-import { Animal } from "./animal";
+export { Animal } from "./animal";
 
 let animals: Array<Animal> = [
   new Animal("Alex", "Lion", ["meat"]),
